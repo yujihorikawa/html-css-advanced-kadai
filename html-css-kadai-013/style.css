@@ -29,6 +29,14 @@ PC用のスタイル
     justify-content: space-between;
   }
 
+  #menu-sp {
+    display: none;
+  }
+
+  #nav-sp {
+    display: none;
+  }
+
   /* ナビゲーションのレイアウト */
   #nav-pc {
     text-align: right;
