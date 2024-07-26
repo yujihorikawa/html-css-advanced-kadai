@@ -1,0 +1,183 @@
+body{
+  font-family: "Noto Sans JP", sans-serif;
+ max-width: 900px;
+  margin: 0 auto;
+}
+
+img{
+  max-width: 100%;
+}
+
+#topimage{
+  position: relative;
+  margin-bottom: 40px;
+}
+
+#topimage img{
+  margin: 0 15px;
+}
+
+.header-inner{
+  position: absolute;
+  left: 0;
+  bottom: 10px;
+}
+
+.header-inner a{
+  font-size: 25px;
+  margin-left: 30px;
+  font-weight: bold;
+  border: 1px solid black;
+  padding: 5px;
+}
+
+/* キャンプ場詳細 */
+#detail{
+  display: flex;
+  justify-content: center;
+  background-color: beige;
+  margin-bottom: 40px;
+}
+
+.detail-inner{
+  padding: 20px;
+}
+
+h1{
+  font-size: 25px;
+  color: blue;
+  background-color: bisque;
+}
+
+#detail p{
+  font-size: 18px;
+  line-height: 2em;
+}
+
+/* ギャラりー */
+h2{
+  font-size: 25px;
+  color: blue;
+  background-color: bisque;
+ 
+}
+
+#gallery{
+  margin-bottom: 60px;
+}
+
+.galleryphoto{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.galleryphoto li {
+  width:33%;
+  
+}
+
+.galleryphoto img{
+  width: 100%;
+  max-height: 190px;
+}
+
+/* 施設紹介 */
+
+#introduce{
+  margin-bottom: 60px;
+}
+
+.introline{
+  list-style: inside;
+  border: 1px solid black;
+  padding: 15px;
+}
+
+h3{
+  font-size: 25px;
+  margin-top: 15px;
+}
+
+.introinclose{
+  background-color: beige;
+  
+}
+
+.introline li{
+  margin: 10px 10px 0 10px;
+  font-size: 20px;
+  
+}
+
+/* ご利用料金 */
+
+table{
+  margin: 50px auto 0 auto;
+}
+table th{
+  padding: 30px 60px;
+  font-size: 20px;
+  background-color: beige;
+}
+
+table td{
+  padding: 10px 60px;
+  font-size: 18px;
+}
+
+.price-inner{
+  margin-bottom: 30px;
+}
+
+#access{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+.access-map {
+margin-top: 30px;
+}
+
+.access-add{
+  margin: 20px;
+}
+
+.access-add p{
+  font-size: 18px;
+  margin: 10px 10px 0 10px;
+}
+@media screen and (max-width: 800px){
+body{
+  margin: 0 auto;
+}
+.header-inner a{
+  font-size: 13px;
+  margin-left: 5px;
+  font-weight: bold;
+}
+
+#detail{
+  flex-direction: column-reverse;
+}
+
+.galleryphoto{
+  flex-direction: column;
+}
+.galleryphoto li{
+  width: 100%;
+}
+
+#detail p{
+  font-size: 13px;
+  line-height: 1.5em;
+}
+
+#access{
+ flex-direction: column;
+}
+.galleryphoto img{
+  
+  max-height: 100%;
+}
+}
